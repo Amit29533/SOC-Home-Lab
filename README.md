@@ -55,4 +55,29 @@ B -->|Alert Logs| C[Wazuh Manager]
 C -->|Correlated Alerts| D[Splunk SIEM]
 D -->|Dashboards & Alerts| E[Azure Sentinel]
 E -->|Cloud Monitoring| F[Security Analyst]
+```
+
+```
+Directory Structure:
+SOC-Homelab/
+├── SPLUNK-SETUP.md
+├── SURICATA-SETUP.md
+├── WAZUH_SETUP.md
+└── configs/
+```
+
+- **SPLUNK-SETUP.md** → Complete guide to install, configure, and use Splunk for log aggregation and dashboards.  
+- **SURICATA-SETUP.md** → Step-by-step instructions to set up Suricata IDS for network traffic monitoring and alerting.  
+- **WAZUH_SETUP.md** → Instructions to deploy Wazuh for endpoint monitoring, log analysis, and integration with Splunk/Azure Sentinel.  
+- **configs/** → Folder to store any configuration files for Splunk, Suricata, Wazuh, or other lab components.
+
+
+##🙏 Thank You
+```
+Thank you for exploring this SOC-focused homelab!
+I will try to update this project, if a major change occur. Feel free to customized this setup in your own way.
+If you need any help or have questions, contact me:
+LinkedIn: https://www.linkedin.com/in/amit29533/
+Email: amit29533@gmail.com
+```
 
